@@ -6,7 +6,7 @@ var acc = 1000;
 /* GET users listing. */
 router.get('/', function(req, res, next) {
   acc = acc*ratio;
-  res.send(`Value is: ${acc.toFixed(2)}`);
+  res.send(`Value is: ${acc}`);
 });
 
 module.exports = router;
